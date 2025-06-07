@@ -1,6 +1,1 @@
-Detta är min verion av MVP för event system, det går att browsa events, kolla mer info och boka upp till 10 biljetter. 
-Man måste vara inloggad att boka. 
-Så detta
-är mina 4 dist system (frontend i react, account, booking och CRUD)
-Booking är authorised och key/connection strings är i azure vault, samt med cors som accepterear bara min frontend
-man måste bekräfta email genom att skriva in kod vid konto skapandet
+Mitt MVP för event­system består av fem tjänster: en React-front låter dig bläddra bland event och boka upp till tio biljetter efter inloggning, konto­tjänsten skickar en e­postkod som verifieras, bokning­tjänsten kollar din JWT och all känslig info ligger säkert i Azure Key Vault, medan en separat CRUD­tjänst sköter event­data och CORS bara släpper fram vår frontend.
